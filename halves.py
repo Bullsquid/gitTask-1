@@ -45,4 +45,4 @@ a = -10
 b = 10
 eps = 0.0001
 min = min_halves(f, a, b, eps)
-print(min)
+print("x = %.3f; f(x) = %.3f" % (min["x"], min["f"]))
